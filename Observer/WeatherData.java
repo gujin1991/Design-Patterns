@@ -6,7 +6,7 @@ public class WeatherData extends Observable {
 	private float temperature;
 	private float humidity;
 	private float pressure;
-	private LinkedList<Observer> observers;
+	//private LinkedList<Observer> observers;
 	
 	public void measurementsChanged() {
 		this.setChanged();
